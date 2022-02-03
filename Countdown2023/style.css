@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/img/manny-pacquiao-fireworks-20151231.jpg.crdownload);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-weight:500;
+    font-size: 3.5rem;
+    margin-top: -10rem;
+}
+
+p{
+    font-weight: normal;
+    font-size: 2rem;
+}
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big-text{
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span{
+    font-size: 1.5rem;
+}
